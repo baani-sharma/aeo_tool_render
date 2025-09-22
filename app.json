@@ -1,0 +1,32 @@
+{
+  "name": "AIO Search Tool",
+  "description": "AI Visibility Checker & Content Optimization Platform",
+  "repository": "https://github.com/yourusername/aio-search-tool",
+  "logo": "https://img.icons8.com/color/96/000000/search.png",
+  "keywords": ["ai", "seo", "content", "optimization", "streamlit"],
+  "env": {
+    "AIRTOP_API_KEY": {
+      "description": "Airtop API key for browser automation",
+      "required": false
+    },
+    "LLM_EMAIL": {
+      "description": "Email for ChatGPT/Claude/Perplexity pro accounts",
+      "required": false
+    },
+    "LLM_PASSWORD": {
+      "description": "Password for LLM pro accounts",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  }
+} 

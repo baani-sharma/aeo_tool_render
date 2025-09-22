@@ -1,0 +1,131 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.coverage.*
+coverage.xml
+*.cover
+*.py,cover
+
+# Virtual Environments
+venv/
+venv311/
+ENV/
+env/
+.venv/
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+.project
+.pydevproject
+.settings/
+.vs/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+*.temp
+Desktop.ini
+$RECYCLE.BIN/
+System Volume Information/
+.Spotlight-V100/
+.Trashes/
+
+# Logs and Outputs
+*.log
+logs/
+temp/
+tmp/
+*.tmp
+aio_output/
+demo_results_*.json
+results/
+screenshots/
+*.csv
+*.json.tmp
+*.yaml.tmp
+*.md.tmp
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# AirTop specific
+airtop_simulator.log
+ai_search_visibility.log
+airtop_integration.log
+*.conf
+!example.conf
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Compiled files
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+*.dylib
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
