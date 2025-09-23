@@ -1,0 +1,85 @@
+{
+  "success": true,
+  "session_id": "23370f96-3dbf-40bc-8276-98340101332e",
+  "brand_monitored": "AIO Search",
+  "competitors_tracked": [
+    "Clearscope",
+    "MarketMuse",
+    "Surfer SEO"
+  ],
+  "ai_engines_tested": [
+    "perplexity"
+  ],
+  "results": [
+    {
+      "platform": "perplexity",
+      "engine_name": "Perplexity AI",
+      "query": "What are the best AI content optimization tools?",
+      "ai_response": "data=ScrapeResponseEnvelope(model_response=ScrapeResponseOutput(scraped_content=ScrapeResponseContent(content_type='text/plain', text='Title: Just a moment...\\n\\nURL Source: https://www.perplexity.ai/\\n\\nMarkdown Content:\\n![Image 1: Icon for www.perplexity.ai](https://www.perplexity.ai/favicon.ico)www.perplexity.ai\\n----------------------------------------------------------------------------------------------\\n\\nVerify you are human by completing the action below.\\n\\nwww.perplexity.ai needs to ...",
+      "brand_mentioned": false,
+      "mention_type": "none",
+      "mention_context": "",
+      "competitors_mentioned": [],
+      "sources_cited": [],
+      "citation_urls": [],
+      "sentiment": "neutral",
+      "response_time": 37.994251,
+      "timestamp": "2025-07-01T17:17:21.093619",
+      "success": true,
+      "raw_content": "data=ScrapeResponseEnvelope(model_response=ScrapeResponseOutput(scraped_content=ScrapeResponseContent(content_type='text/plain', text='Title: Just a moment...\\n\\nURL Source: https://www.perplexity.ai/\\n\\nMarkdown Content:\\n![Image 1: Icon for www.perplexity.ai](https://www.perplexity.ai/favicon.ico)www.perplexity.ai\\n----------------------------------------------------------------------------------------------\\n\\nVerify you are human by completing the action below.\\n\\nwww.perplexity.ai needs to review the security of your connection before proceeding.\\n'), selected_text=None, title='Just a moment...')) errors=[] meta=ExternalSessionAiResponseMetadata(client_provided=ClientProvidedResponseMetadata(client_request_id=None), request_id='893297ab-71bd-4d16-8923-7f36f10c7119', screenshots=None, status='success', usage=ExternalSessionAiResponseMetadataUsage(credits=0, id='893297ab-71bd-4d16-8923-7f36f10c7119')) warnings=[]"
+    },
+    {
+      "platform": "perplexity",
+      "engine_name": "Perplexity AI",
+      "query": "Compare Clearscope vs MarketMuse for SEO",
+      "ai_response": "data=ScrapeResponseEnvelope(model_response=ScrapeResponseOutput(scraped_content=ScrapeResponseContent(content_type='text/plain', text='Title: Just a moment...\\n\\nURL Source: https://www.perplexity.ai/\\n\\nMarkdown Content:\\n![Image 1: Icon for www.perplexity.ai](https://www.perplexity.ai/favicon.ico)www.perplexity.ai\\n----------------------------------------------------------------------------------------------\\n\\nVerify you are human by completing the action below.\\n\\nwww.perplexity.ai needs to ...",
+      "brand_mentioned": false,
+      "mention_type": "none",
+      "mention_context": "",
+      "competitors_mentioned": [],
+      "sources_cited": [],
+      "citation_urls": [],
+      "sentiment": "neutral",
+      "response_time": 37.175573,
+      "timestamp": "2025-07-01T17:18:03.179407",
+      "success": true,
+      "raw_content": "data=ScrapeResponseEnvelope(model_response=ScrapeResponseOutput(scraped_content=ScrapeResponseContent(content_type='text/plain', text='Title: Just a moment...\\n\\nURL Source: https://www.perplexity.ai/\\n\\nMarkdown Content:\\n![Image 1: Icon for www.perplexity.ai](https://www.perplexity.ai/favicon.ico)www.perplexity.ai\\n----------------------------------------------------------------------------------------------\\n\\nVerify you are human by completing the action below.\\n\\nwww.perplexity.ai needs to review the security of your connection before proceeding.\\n'), selected_text=None, title='Just a moment...')) errors=[] meta=ExternalSessionAiResponseMetadata(client_provided=ClientProvidedResponseMetadata(client_request_id=None), request_id='15cfdf65-cedf-4f70-9146-d6582e112959', screenshots=None, status='success', usage=ExternalSessionAiResponseMetadataUsage(credits=0, id='15cfdf65-cedf-4f70-9146-d6582e112959')) warnings=[]"
+    },
+    {
+      "platform": "perplexity",
+      "engine_name": "Perplexity AI",
+      "query": "Top content optimization platforms for digital marketing",
+      "ai_response": "data=ScrapeResponseEnvelope(model_response=ScrapeResponseOutput(scraped_content=ScrapeResponseContent(content_type='text/plain', text='Title: Just a moment...\\n\\nURL Source: https://www.perplexity.ai/\\n\\nMarkdown Content:\\n![Image 1: Icon for www.perplexity.ai](https://www.perplexity.ai/favicon.ico)www.perplexity.ai\\n----------------------------------------------------------------------------------------------\\n\\nVerify you are human by completing the action below.\\n\\nwww.perplexity.ai needs to ...",
+      "brand_mentioned": false,
+      "mention_type": "none",
+      "mention_context": "",
+      "competitors_mentioned": [],
+      "sources_cited": [],
+      "citation_urls": [],
+      "sentiment": "neutral",
+      "response_time": 36.56425,
+      "timestamp": "2025-07-01T17:18:44.554552",
+      "success": true,
+      "raw_content": "data=ScrapeResponseEnvelope(model_response=ScrapeResponseOutput(scraped_content=ScrapeResponseContent(content_type='text/plain', text='Title: Just a moment...\\n\\nURL Source: https://www.perplexity.ai/\\n\\nMarkdown Content:\\n![Image 1: Icon for www.perplexity.ai](https://www.perplexity.ai/favicon.ico)www.perplexity.ai\\n----------------------------------------------------------------------------------------------\\n\\nVerify you are human by completing the action below.\\n\\nwww.perplexity.ai needs to review the security of your connection before proceeding.\\n'), selected_text=None, title='Just a moment...')) errors=[] meta=ExternalSessionAiResponseMetadata(client_provided=ClientProvidedResponseMetadata(client_request_id=None), request_id='45b2faa0-3e60-4dad-a8b5-072d76cde5af', screenshots=None, status='success', usage=ExternalSessionAiResponseMetadataUsage(credits=0, id='45b2faa0-3e60-4dad-a8b5-072d76cde5af')) warnings=[]"
+    }
+  ],
+  "summary": {
+    "brand_name": "AIO Search",
+    "total_queries": 3,
+    "successful_queries": 3,
+    "success_rate": 100.0,
+    "brand_mentions": 0,
+    "brand_mention_rate": 0.0,
+    "sentiment_breakdown": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0
+    },
+    "top_citing_sources": {},
+    "ai_engines_tested": [
+      "Perplexity AI"
+    ],
+    "monitoring_timestamp": "2025-07-01T17:18:56.735641"
+  },
+  "timestamp": "2025-07-01T17:18:56.735663"
+}
