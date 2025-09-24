@@ -12,7 +12,13 @@ services:
       pip install --only-binary :all: pandas==2.1.4
       pip install --only-binary :all: pydantic==2.0.3
       pip install --only-binary :all: pillow==10.0.0
+      pip install --only-binary :all: greenlet==2.0.2
       pip install --only-binary :all: -r requirements.txt
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.8"
+      - key: PYTHONPATH
+        value: "/app"
     startCommand: "streamlit run web_app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true --browser.gatherUsageStats false"
     plan: free
     healthCheckPath: /_stcore/health
