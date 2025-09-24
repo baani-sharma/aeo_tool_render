@@ -5,11 +5,6 @@ services:
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: streamlit run web_app.py --server.port $PORT --server.address 0.0.0.0
-    envVars:
-      - key: PYTHON_VERSION
-        value: "3.11.8"
-      - key: PYTHONPATH
-        value: "/app"
     startCommand: "streamlit run web_app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true --browser.gatherUsageStats false"
     plan: free
     healthCheckPath: /_stcore/health
