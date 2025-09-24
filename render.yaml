@@ -5,8 +5,12 @@ services:
     env: python
     runtime: python3.11
     buildCommand: |
+      apt-get update
+      apt-get install -y libnss3 libnspr4 libatk1.0-0 libatk-bridge2.0-0 libcups2 libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 libgbm1 libasound2
       pip install -r requirements.txt
       python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords'); nltk.download('wordnet'); nltk.download('averaged_perceptron_tagger'); nltk.download('universal_tagset')"
+      playwright install chromium
+      playwright install-deps chromium
     envVars:
       - key: PYTHON_VERSION
         value: "3.11.8"
