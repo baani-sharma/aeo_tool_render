@@ -8,13 +8,9 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: "3.11.8"
-    startCommand: streamlit run web_app.py --server.port $PORT --server.address 0.0.0.0
-    startCommand: "streamlit run web_app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true --browser.gatherUsageStats false"
+    startCommand: "streamlit run web_app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true"
     plan: free
     healthCheckPath: /_stcore/health
-    envVars:
-      - key: PYTHON_VERSION
-        value: 3.11
       - key: AIRTOP_API_KEY
         sync: false
       - key: STREAMLIT_SERVER_HEADLESS
